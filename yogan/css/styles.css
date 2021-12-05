@@ -1,0 +1,137 @@
+*{
+    color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width:  1280px;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
+}
+.topHeader img {
+    margin-top: 0px;
+    float: right;
+    width: 300px;
+    height: 150px;
+    right: 50px;
+}
+.topHeader h1 {
+    margin-top: 50px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.menu{
+    background: #eebf70;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    font-size:20px;
+    font-style: bold;
+}
+.menu > li{
+    padding: 10px 50px;
+}
+.tagline{
+    margin-top: 70px;
+    font-size: 72px;
+    color: #eebf70;
+    font-style: bold;
+    text-align: center;
+}
+
+.split5050{
+    display: flex;
+    flex-direction: row;
+}
+.mainText{
+    padding: 35px 28px;
+    font-size: 30px;
+}
+.tagline2{
+    font-size:50px;
+    color:#eebf70;
+    font-style:bold;
+    text-align: center;
+}
+.mainText{
+    padding: 35px 28px;
+    font-size: 30px;
+}
+/* Button at the bottom of the website */
+.buyButton{
+    font-size: 40px;
+    background: #eebf70;
+    font-style: bold;
+    text-align: center;
+    float: right;
+
+}
+/* At the bottom of website, yogan copyright */
+footer{
+    width: 100%;
+    background-color: #eebf70;
+    height: 80px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > span{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+}
+
+/* media query for 480px */
+@media only screen and (max-width: 480px) {
+/* this is all to reposition and make it fit on phone screen */
+    .menu{
+        float: none;
+        font-size:40px;
+        justify-content: center;
+    }
+    .menu > li{
+        padding: 50px 20px;
+    }
+    .mainText{
+        padding: 35px 28px;
+        font-size: 40px;
+    }
+    .topHeader h1 {
+        margin-top: 50px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-size: 40px;
+    }   
+    .topHeader img {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 200px;
+    }
+    .tagline{
+        margin-top: 80px;
+        font-size: 80px;
+        color: #eebf70;
+        font-style: bold;
+        text-align: center;
+    }
+    .split5050{
+        margin-top: 80px;
+    }
+    .tagline2{
+        margin-top: 80px;
+        font-size: 80px;
+    }
+    .buyButton{
+        margin-right: 15px;
+    }
+}
